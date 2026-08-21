@@ -1,0 +1,18 @@
+# Pré-requisitos e arquivos compilados
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.out
+
+# Pastas de build
+build/
+bin/
+obj/
+
+# Arquivos de IDE e SO
+.vscode/
+.idea/
+.DS_Store

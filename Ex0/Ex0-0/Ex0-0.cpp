@@ -1,9 +1,13 @@
-#include <list>
-#include <vector>
-#include <algorithm>
-#include <map>
 #include <iostream>
+#include <vector>
 #include <sstream>
+
+// Você tem um robô na origem do eixo x (x = 0). Este robô receberá instruções e você
+// deve imprimir o resultado final das instruções. Elas serão:
+// • ESQUERDA: anda uma unidade para a esquerda
+// • DIREITA: anda uma unidade para a direita
+// • REPETE i: repete a instrução de número i (comece contando o número de instruções a partir do 0)
+
 
 using namespace std;
 
@@ -61,4 +65,5 @@ int main(){
         }
         printf("%d\n", r.x);
     }
+    return 0;
 }
