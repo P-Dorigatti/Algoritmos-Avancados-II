@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void resolver_caso_teste() {
+void solve() {
     long long n, m, a, c, x0;
     cin >> n >> m >> a >> c >> x0;
 
@@ -49,7 +49,7 @@ int main() {
     int casos_teste;
     if (cin >> casos_teste) {
         while (casos_teste--) {
-            resolver_caso_teste();
+            solve();
         }
     }
     return 0;
